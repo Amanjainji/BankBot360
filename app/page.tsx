@@ -829,7 +829,7 @@ export default function BankBot() {
   };
 
   const responses = [
-    "₹5,000 Priya Sharma को transfer हो गया! ✅ Transaction ID: UPI/260303/TXN7821K\n\nक्या आप receipt print करना चाहेंगे?",
+    "₹5,000 Priya Sharma को transfer हो गया!  Transaction ID: UPI/260303/TXN7821K\n\nक्या आप receipt print करना चाहेंगे?",
     "आपका balance check हो गया। Available balance: ₹54,230.00",
     "आपकी mini statement ready है। Last 5 transactions display हो रही हैं।",
     "आपका card block कर दिया गया है। Emergency helpline: 1800-22-2244",
@@ -1929,7 +1929,7 @@ export default function BankBot() {
                   className="btn btn-primary"
                   onClick={() => setActiveView("auth")}
                 >
-                  🔐 {t("login_btn")}
+                  {t("login_btn")}
                 </button>
                 <button
                   className="btn btn-ghost"
@@ -1944,7 +1944,7 @@ export default function BankBot() {
             <div className="landing-section">
               <div className="landing-content">
                 <h2 className="feature-heading">
-                  🔒 Advanced Security & Biometric Authentication
+                  Advanced Security & Biometric Authentication
                 </h2>
                 <p className="feature-desc">
                   Your money is protected with military-grade encryption and
@@ -1966,7 +1966,7 @@ export default function BankBot() {
             {/* FEATURE 2: MULTILINGUAL */}
             <div className="landing-section alt">
               <div className="landing-content">
-                <h2 className="feature-heading">🌍 Banking in Your Language</h2>
+                <h2 className="feature-heading"> Banking in Your Language</h2>
                 <p className="feature-desc">
                   Access banking services in 8 Indian languages. BankBot
                   understands your language preferences and communicates
@@ -1993,7 +1993,7 @@ export default function BankBot() {
             <div className="landing-section">
               <div className="landing-content">
                 <h2 className="feature-heading">
-                  🤖 AI-Powered Support Available 24/7
+                  AI-Powered Support Available 24/7
                 </h2>
                 <p className="feature-desc">
                   Get instant help from our intelligent BankBot or connect with
@@ -2050,7 +2050,7 @@ export default function BankBot() {
                   onClick={() => setActiveView("auth")}
                   style={{ padding: "18px 40px", fontSize: "16px" }}
                 >
-                  🚀 Get Started Now
+                  Get Started Now
                 </button>
               </div>
             </div>
@@ -2159,7 +2159,7 @@ export default function BankBot() {
                     }}
                     style={{ margin: "0 auto", display: "flex" }}
                   >
-                    ✅ Verify Face ID
+                    Verify Face ID
                   </button>
                 </div>
               )}
@@ -2188,7 +2188,7 @@ export default function BankBot() {
                     onClick={() => setActiveView("services")}
                     style={{ margin: "0 auto", display: "flex" }}
                   >
-                    ✅ Verify OTP
+                    Verify OTP
                   </button>
                 </div>
               )}
@@ -2221,7 +2221,7 @@ export default function BankBot() {
                     onClick={() => setActiveView("services")}
                     style={{ margin: "0 auto", display: "flex" }}
                   >
-                    ✅ Simulate Voice Match
+                    Simulate Voice Match
                   </button>
                 </div>
               )}
@@ -2256,7 +2256,7 @@ export default function BankBot() {
             <div className="service-grid">
               {[
                 {
-                  icon: "💬",
+                  icon: "",
                   title: "Chat with BankBot",
                   desc: "Ask anything in your language",
                   accent: "var(--blue)",
@@ -2288,7 +2288,7 @@ export default function BankBot() {
                   view: "loan",
                 },
                 {
-                  icon: "🔒",
+                  icon: "",
                   title: "Card Services",
                   desc: "Block/unblock, PIN change, limits",
                   accent: "#A855F7",
@@ -2329,7 +2329,7 @@ export default function BankBot() {
             <div className="chat-layout">
               <div className="chat-main">
                 <div className="chat-topbar">
-                  <div className="bot-avatar">🤖</div>
+                  <div className="bot-avatar"></div>
                   <div className="bot-info">
                     <div className="name">BankBot 360</div>
                     <div className="status">● Online · Listening</div>
@@ -2417,7 +2417,7 @@ export default function BankBot() {
                     </div>
                   </div>
                   <div className="auth-row">
-                    <div className="auth-icon">🔐</div>
+                    <div className="auth-icon"></div>
                     <div>
                       <div className="auth-label">Auth Method</div>
                       <div className="auth-value">
@@ -2507,7 +2507,7 @@ export default function BankBot() {
           {/* SUCCESS VIEW */}
           <div className={`view ${activeView === "success" ? "active" : ""}`}>
             <div className="success-screen">
-              <div className="success-icon-wrap">✅</div>
+              <div className="success-icon-wrap"></div>
               <h2>Transfer Successful!</h2>
               <p>Your transaction has been processed securely.</p>
 
@@ -2547,7 +2547,7 @@ export default function BankBot() {
                   className="btn btn-ghost"
                   onClick={() => setActiveView("services")}
                 >
-                  🏠 Back to Home
+                  Back to Home
                 </button>
                 <button className="btn btn-primary">🖨️ Print Receipt</button>
               </div>
@@ -2965,9 +2965,7 @@ export default function BankBot() {
                     textAlign: "center",
                   }}
                 >
-                  <div style={{ fontSize: "24px", marginBottom: "8px" }}>
-                    🔒
-                  </div>
+                  <div style={{ fontSize: "24px", marginBottom: "8px" }}></div>
                   <div className="info-label">Block Card</div>
                   <div
                     className="info-value"
@@ -3300,7 +3298,7 @@ export default function BankBot() {
                   className="btn btn-ghost"
                   onClick={() => setActiveView("services")}
                 >
-                  🏠 होम
+                  होम
                 </button>
                 <button className="btn btn-primary">🖨️ {t("print")}</button>
               </div>
@@ -3448,7 +3446,7 @@ export default function BankBot() {
                 className="btn btn-ghost"
                 onClick={() => setActiveView("services")}
               >
-                🏠 {t("home")}
+                {t("home")}
               </button>
               <button className="btn btn-primary">
                 📞 {t("contact_agent")}
@@ -3522,9 +3520,7 @@ export default function BankBot() {
                     textAlign: "center",
                   }}
                 >
-                  <div style={{ fontSize: "24px", marginBottom: "8px" }}>
-                    🔒
-                  </div>
+                  <div style={{ fontSize: "24px", marginBottom: "8px" }}></div>
                   <div className="info-label">{t("block_card_action")}</div>
                 </button>
                 <button
@@ -3574,7 +3570,7 @@ export default function BankBot() {
                 className="btn btn-ghost"
                 onClick={() => setActiveView("services")}
               >
-                🏠 {t("home")}
+                {t("home")}
               </button>
               <button className="btn btn-primary">✓ {t("complete")}</button>
             </div>
@@ -3699,7 +3695,7 @@ export default function BankBot() {
                   className="btn btn-ghost"
                   onClick={() => setActiveView("services")}
                 >
-                  🏠 {t("home")}
+                  {t("home")}
                 </button>
                 <button className="btn btn-primary">
                   📥 {t("download_fd_doc")}
@@ -3909,16 +3905,16 @@ export default function BankBot() {
               className="nav-btn"
               onClick={() => setActiveView("welcome")}
             >
-              🏠 Home
+              Home
             </button>
             <button
               className="nav-btn"
               onClick={() => setActiveView("services")}
             >
-              ⚡ Services
+              Services
             </button>
             <button className="nav-btn" onClick={() => setActiveView("chat")}>
-              💬 BankBot
+              BankBot
             </button>
           </div>
           <div className="footer-help">

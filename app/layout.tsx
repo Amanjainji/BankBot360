@@ -8,9 +8,9 @@ const dmSans = DM_Sans({ subsets: ["latin"], variable: '--font-dm-sans' });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: '--font-space-grotesk' });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Bank Bot 360',
+  description: 'Created with Next.js 14, Tailwind CSS, and TypeScript. A chatbot that can answer questions about your bank account and transactions.',
+  generator: 'app',
   icons: {
     icon: [
       {
