@@ -14,7 +14,7 @@ const translations = {
     good_morning: "सुप्रभात",
     available_balance: "उपलब्ध शेष",
     what_today: "आज आप क्या करना चाहते हैं?",
-    chat_bot: "BankBot के साथ चैट करें",
+    chat_bot: "Ramsetu के साथ चैट करें",
     fund_transfer: "धन अंतरण",
     account_statement: "खाता विवरण",
     loan_credit: "लोन और क्रेडिट",
@@ -149,7 +149,7 @@ const translations = {
     good_morning: "Good morning",
     available_balance: "Available Balance",
     what_today: "What would you like to do today?",
-    chat_bot: "Chat with BankBot",
+    chat_bot: "Chat with Ramsetu",
     fund_transfer: "Fund Transfer",
     account_statement: "Account Statement",
     loan_credit: "Loan & Credit",
@@ -284,7 +284,7 @@ const translations = {
     good_morning: "শুভ সকাল",
     available_balance: "উপলব্ধ ব্যালেন্��",
     what_today: "আজ আপনি কী করতে চান?",
-    chat_bot: "BankBot এর সাথে চ্যাট করুন",
+    chat_bot: "Ramsetu এর সাথে চ্যাট করুন",
     fund_transfer: "তহবিল স্থানান্তর",
     account_statement: "অ্যাকাউন্ট স্টেটমেন্ট",
     loan_credit: "ঋণ এবং ক্রেডিট",
@@ -419,7 +419,7 @@ const translations = {
     good_morning: "காலை வணக்கம்",
     available_balance: "கிடைக்கும் சமநிலை",
     what_today: "இன்று என்ன செய்ய விரும்புகிறீர்கள்?",
-    chat_bot: "BankBot ஐ உடன் விவாதிக்கவும்",
+    chat_bot: "Ramsetu ஐ உடன் விவாதிக்கவும்",
     fund_transfer: "நிதி பரிமாற்றம்",
     account_statement: "கணக்கு அறிக்கை",
     loan_credit: "கடன் மற்றும் கடன்",
@@ -496,7 +496,7 @@ const translations = {
     good_morning: "శుభోదయం",
     available_balance: "లభ్యమైన బ్యాలెన్స్",
     what_today: "ఈ రోజు మీరు ఏమి చేయాలనుకుంటున్నారు?",
-    chat_bot: "BankBot తో చాట్ చేయండి",
+    chat_bot: "Ramsetu తో చాట్ చేయండి",
     fund_transfer: "నిధి బదిలీ",
     account_statement: "ఖాతా ప్రకటన",
     loan_credit: "రుణం మరియు క్రెడిట్",
@@ -573,7 +573,7 @@ const translations = {
     good_morning: "शुभ प्रभात",
     available_balance: "उपलब्ध शेष",
     what_today: "आज आप काय करू इच्छिता?",
-    chat_bot: "BankBot सोबत चॅट करा",
+    chat_bot: "Ramsetu सोबत चॅट करा",
     fund_transfer: "निधी हस्तांतरण",
     account_statement: "खाते विवरण",
     loan_credit: "कर्ज आणि क्रेडिट",
@@ -650,7 +650,7 @@ const translations = {
     good_morning: "ಶುಭೋದಯ",
     available_balance: "ಲಭ್ಯವಾಗಿರುವ ಬ್ಯಾಲೆನ್ಸ್",
     what_today: "ನೀವು ಇಂದು ಏನು ಮಾಡಲು ಬಯಸುತ್ತೀರಿ?",
-    chat_bot: "BankBot ನೊಂದಿಗೆ ಚಾಟ್ ಮಾಡಿ",
+    chat_bot: "Ramsetu ನೊಂದಿಗೆ ಚಾಟ್ ಮಾಡಿ",
     fund_transfer: "ನಿಧಿ ವರ್ಗಾವಣೆ",
     account_statement: "ಖಾತೆ ಹೇಳಿಕೆ",
     loan_credit: "ಸಾಲ ಮತ್ತು ಕ್ರೆಡಿಟ್",
@@ -727,7 +727,7 @@ const translations = {
     good_morning: "ਸ਼ੁਭ ਸਵੇਰੇ",
     available_balance: "ਉਪਲਬਧ ਬੈਲੀਂਸ",
     what_today: "ਤੁਸੀਂ ਅੱਜ ਕੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
-    chat_bot: "BankBot ਨਾਲ ਚੈਟ ਕਰੋ",
+    chat_bot: "Ramsetu ਨਾਲ ਚੈਟ ਕਰੋ",
     fund_transfer: "ਧਨ ਟ੍ਰਾਂਸਫਰ",
     account_statement: "ਖਾਤਾ ਸਟੇਟਮੈਂਟ",
     loan_credit: "਋ਣ ਅਤੇ ਕ੍ਰੈਡਿਟ",
@@ -795,14 +795,14 @@ const translations = {
   },
 };
 
-export default function BankBot() {
+export default function Ramsetu() {
   const [activeView, setActiveView] = useState("welcome");
   const [selectedLang, setSelectedLang] = useState("english");
   const [selectedAuth, setSelectedAuth] = useState("face");
   const [messages, setMessages] = useState([
     {
       role: "bot",
-      text: "नमस्ते Amit जी! 🙏 मैं BankBot हूँ। आज मैं आपकी क्या सहायता कर सकता हूँ?\n\n(Hi Amit! I'm BankBot. How can I help you today?)",
+      text: "नमस्ते Amit जी! 🙏 मैं Ramsetu हूँ। आज मैं आपकी क्या सहायता कर सकता हूँ?\n\n(Hi Amit! I'm Ramsetu. How can I help you today?)",
     },
     { role: "user", text: "मुझे ₹5,000 Priya को भेजने हैं", time: "10:32 AM" },
     {
@@ -1848,7 +1848,7 @@ export default function BankBot() {
           <div className="logo-area">
             <div className="logo-icon">🏦</div>
             <div className="logo-text">
-              BankBot <span>360</span>
+              Ramsetu <span></span>
             </div>
           </div>
           <div className="header-right">
@@ -1968,7 +1968,7 @@ export default function BankBot() {
               <div className="landing-content">
                 <h2 className="feature-heading"> Banking in Your Language</h2>
                 <p className="feature-desc">
-                  Access banking services in 8 Indian languages. BankBot
+                  Access banking services in 8 Indian languages. Ramsetu
                   understands your language preferences and communicates
                   naturally.
                 </p>
@@ -1996,7 +1996,7 @@ export default function BankBot() {
                   AI-Powered Support Available 24/7
                 </h2>
                 <p className="feature-desc">
-                  Get instant help from our intelligent BankBot or connect with
+                  Get instant help from our intelligent Ramsetu or connect with
                   a human agent anytime. No waiting, no complexity.
                 </p>
                 <ul className="feature-list">
@@ -2041,7 +2041,7 @@ export default function BankBot() {
                   margin: "0 auto 28px",
                 }}
               >
-                Join thousands of users who have already switched to BankBot for
+                Join thousands of users who have already switched to Ramsetu for
                 a seamless, secure, and intelligent banking experience.
               </p>
               <div className="cta-row">
@@ -2066,8 +2066,8 @@ export default function BankBot() {
               }}
             >
               <p>
-                BankBot 360 is powered by Union Bank of India • Secure •
-                Reliable • 24/7 Available
+                Ramsetu is powered by Union Bank of India • Secure • Reliable •
+                24/7 Available
               </p>
             </div>
           </div>
@@ -2235,7 +2235,7 @@ export default function BankBot() {
                 <div className="avatar">A</div>
                 <div>
                   <div className="greeting-name">
-                    Good morning, Amit Kumar 👋
+                    Good morning, Aman Jain 👋
                   </div>
                   <div className="greeting-sub">
                     Account •••• 4821 · Savings Account
@@ -2250,14 +2250,14 @@ export default function BankBot() {
 
             <div className="services-header">
               <h2>What would you like to do today?</h2>
-              <p>Select a service or say it aloud — BankBot is listening</p>
+              <p>Select a service or say it aloud — Ramsetu is listening</p>
             </div>
 
             <div className="service-grid">
               {[
                 {
                   icon: "",
-                  title: "Chat with BankBot",
+                  title: "Chat with Ramsetu",
                   desc: "Ask anything in your language",
                   accent: "var(--blue)",
                   bg: "rgba(21,87,255,0.12)",
@@ -2331,7 +2331,7 @@ export default function BankBot() {
                 <div className="chat-topbar">
                   <div className="bot-avatar"></div>
                   <div className="bot-info">
-                    <div className="name">BankBot 360</div>
+                    <div className="name">Ramsetu </div>
                     <div className="status">● Online · Listening</div>
                   </div>
                 </div>
@@ -2411,7 +2411,7 @@ export default function BankBot() {
                     <div>
                       <div className="auth-label">Identity</div>
                       <div className="auth-value">
-                        Amit Kumar{" "}
+                        Aman Jain{" "}
                         <span className="badge badge-green">✓ Verified</span>
                       </div>
                     </div>
@@ -3826,7 +3826,7 @@ export default function BankBot() {
                 >
                   <div style={{ marginBottom: "8px" }}>
                     <span style={{ color: "var(--muted)" }}>{t("name")}:</span>{" "}
-                    <strong>Amit Kumar</strong>
+                    <strong>Aman Jain</strong>
                   </div>
                   <div style={{ marginBottom: "8px" }}>
                     <span style={{ color: "var(--muted)" }}>
@@ -3914,7 +3914,7 @@ export default function BankBot() {
               Services
             </button>
             <button className="nav-btn" onClick={() => setActiveView("chat")}>
-              BankBot
+              Ramsetu
             </button>
           </div>
           <div className="footer-help">
